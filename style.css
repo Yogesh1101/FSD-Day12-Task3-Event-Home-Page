@@ -1,0 +1,124 @@
+body{
+    position: fixed;
+}
+.entire{
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 95.5vh;
+    width: 98vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top,.middle,.bottom{
+    width: 95vw;
+}
+.top{
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.13em;
+    border: 2px solid black;
+    width: 700px;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.middle,.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+}
+.middle{
+    margin-bottom: 50px;
+}
+.one{
+    border: 2px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event{
+    font-family: 'Shadows Into Light', cursive;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 70px;
+    font-weight: bold;
+}
+.other{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin: 10px;
+    justify-content: center;
+    border: 2px solid black;
+}
+.image{
+    border: 2px solid black;
+    height: 150px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 210px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    justify-content: space-around;
+}
+.date,.seats,.book{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.date{
+    letter-spacing: 0.13em;
+}
+.date,.book{
+    text-align: center;
+}
+.book{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-left: 10px;
+    align-items: center;
+}
